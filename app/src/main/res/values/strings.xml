@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+    <string name="raw1text">Raw 1</string>
+    <string name="raw2col1Text">Raw 2<br/>Col 1</string>
+    <string name="raw2_col2Text">Raw 2<br/>Col 2</string>
+    <string name="raw3col1Text">Raw 3<br/>Col 1</string>
+    <string name="raw4Text">Raw 4</string>
+    <string name="raw3col2Text">Raw 3<br/>Col 2</string>
+    <string name="raw3col3Text">Raw 3<br/>Col 3</string>
+</resources>

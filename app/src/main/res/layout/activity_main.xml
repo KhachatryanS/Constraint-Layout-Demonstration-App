@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E8EC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw4Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/raw1"
+        app:layout_constraintStart_toStartOf="@id/raw1"
+        app:layout_constraintTop_toBottomOf="@+id/raw3col1"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/raw1"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw1text"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textIsSelectable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/raw2col1"
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw2col1Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/raw1"
+        app:layout_constraintTop_toBottomOf="@+id/raw1"
+        tools:ignore="MissingConstraints,RtlCompat" />
+
+    <TextView
+        android:id="@+id/raw2col2"
+        android:layout_width="0dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw2_col2Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/raw1"
+        app:layout_constraintStart_toStartOf="@+id/raw3col2"
+        app:layout_constraintTop_toBottomOf="@+id/raw1"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/raw3col1"
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw3col1Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/raw1"
+        app:layout_constraintTop_toBottomOf="@+id/raw2col1"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/raw3col2"
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw3col2Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/raw3col3"
+        app:layout_constraintStart_toEndOf="@+id/raw3col1"
+        app:layout_constraintTop_toTopOf="@id/raw3col1"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/raw3col3"
+        android:layout_width="110dp"
+        android:layout_height="53dp"
+        android:background="#03A9F4"
+        android:gravity="center_vertical"
+        android:text="@string/raw3col3Text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/raw1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toTopOf="@id/raw3col2"
+        tools:ignore="RtlCompat" />
+</androidx.constraintlayout.widget.ConstraintLayout>
